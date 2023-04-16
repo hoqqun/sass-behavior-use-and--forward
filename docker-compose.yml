@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  sass:
+    build:
+      context: .
+    volumes:
+      - './:/usr/src'
+      - /usr/src/node_modules
