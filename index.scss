@@ -1,0 +1,15 @@
+@use "./color.scss"; // color変数だけのファイル
+@use "./hoge.scss"; // color変数のforward + 独自クラス定義
+@use "./hoge2.scss"; // 独自クラス定義
+
+.index {
+  color: red;
+}
+
+.index-with-forward-color {
+  color: hoge.$color-facebook;
+}
+
+.index-with-use-color {
+  color: color.$color-twitter;
+}

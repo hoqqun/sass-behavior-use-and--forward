@@ -1,0 +1,6 @@
+@use "./color.scss";
+@forward "./color.scss";
+
+.hoge {
+  color: color.$color-facebook;
+}
